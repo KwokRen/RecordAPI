@@ -6,14 +6,14 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-# Artist.create([
-#                   { name: "De La Soul", hot_100_hits: 3 },
-#                   { name: "Darryl Hall & John Oates", hot_100_hits: 34 },
-#                   { name: "The Bangles", hot_100_hits: 11 },
-#                   { name: "A Tribe Called Quest", hot_100_hits: 5 },
-#                   { name: "Whitney Houston", hot_100_hits: 23 },
-#                   { name: "Cyndi Lauper", hot_100_hits: 14 }
-#               ])
+Artist.create([
+                  { name: "De La Soul", hot_100_hits: 3 },
+                  { name: "Darryl Hall & John Oates", hot_100_hits: 34 },
+                  { name: "The Bangles", hot_100_hits: 11 },
+                  { name: "A Tribe Called Quest", hot_100_hits: 5 },
+                  { name: "Whitney Houston", hot_100_hits: 23 },
+                  { name: "Cyndi Lauper", hot_100_hits: 14 }
+              ])
 
 Record.create([
                   {
