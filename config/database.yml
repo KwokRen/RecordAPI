@@ -26,8 +26,8 @@ development:
   database: record_collection_development
   host: localhost
   port: 5432
-  username: test2
-  password: test2
+  username: test6
+  password: test6
 
 
   # The specified database role being used to connect to postgres.
@@ -65,8 +65,8 @@ test:
   database: record_collection_test
   host: localhost
   port: 5432
-  username: test2
-  password: test2
+  username: test6
+  password: test6
 
 # As with config/credentials.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
